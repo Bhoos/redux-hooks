@@ -1,6 +1,6 @@
 # redux-hooks
 
-just react hooks for redux state / dispatch.
+react hooks for redux state / dispatch. replaces react-redux.
 
 ## installation
 

@@ -17,7 +17,6 @@
     "prepare": "rimraf dist && rollup -c"
   },
   "dependencies": {
-    "react": "^16.7.0-alpha.0",
     "shallowequal": "^1.1.0"
   },
   "devDependencies": {
@@ -28,5 +27,8 @@
     "rimraf": "^2.6.2",
     "rollup": "^0.67.0",
     "rollup-plugin-babel": "^4.0.3"
+  },
+  "peerDependencies": {
+    "react": ">=16.7.0-alpha.0"
   }
 }

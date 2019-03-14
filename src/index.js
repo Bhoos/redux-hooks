@@ -9,7 +9,6 @@ const isStateObj = obj =>
 export function useStore(mapState) {
   const store = useContext(StoreContext);
   const [state, setState] = useState(mapState(store.getState().state));
-  console.log(mapState(store.getState().state));
   useEffect(() => {
     let stateCache = state;
 
